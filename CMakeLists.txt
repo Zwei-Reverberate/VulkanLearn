@@ -9,4 +9,5 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 add_subdirectory(src/main)
 add_subdirectory(src/zwindow)
-add_subdirectory(src/graphic)
+add_subdirectory(src/rhi)
+add_subdirectory(src/render)
