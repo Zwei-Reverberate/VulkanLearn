@@ -1,0 +1,15 @@
+#pragma once
+#include <base/resource.h>
+
+namespace rhi
+{
+    class Sampler : public Resource
+    {
+    public:
+        ResourceType getType() const override
+        {
+            return ResourceType::Sampler;
+        }
+    };
+}
+f
