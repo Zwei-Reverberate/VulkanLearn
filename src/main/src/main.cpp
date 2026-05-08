@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <zwindow.h>
 #include <qguiapplication.h>
+#include <vulkan/vulkandevice.h>
 
 int main(int argc, char* argv[])
 {
